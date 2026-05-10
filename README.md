@@ -1,12 +1,12 @@
-# Evaluating the Effectiveness of LLMs for Static Analysis: A Smart Contracts Case Study - Supplemental Materials
+# LLM-Based Static Analysis for Smart Contracts - Supplemental Materials
 
-This repository holds additional resources for the paper under review. It includes the full test suite of Solidity smart contracts used for our evaluation. The repository also holds the pre-computed vector embeddings for our vulnerability definitions, which were used in our semantic similarity-based automatic classification process.
+This repository contains supplemental materials for our LLM-based static-analysis experiments on smart contracts. It includes the full test suite used in the evaluation, the pre-computed vector embeddings for our vulnerability definitions, and the experimental outputs used for analysis and reproduction.
 The associated technical report is included in this repository under `TechnicalReport/` as a PDF.
 
 * **`Embeddings/`**: This directory contains the pre-computed embeddings for each defect definition, which were used to calculate cosine similarity against the LLM-generated detections.
     * It is organized into subdirectories, one for each of the 7 embedding models tested in our automatic classification development process.
     * Within each model's folder, a separate `.txt` file contains the vector embedding for each specific defect category.
-* **`TestSuite/`**: This directory contains all the Solidity smart contracts used in our evaluation, separated by experiment.
+* **`TestSuite/`**: This directory contains all the smart-contract samples used in our evaluation, separated by experiment.
     * The **`Original/`** folder holds the contracts with their original, descriptive naming conventions, which could introduce lexical bias.
     * The **`Sanitized/`** folder holds the sanitized contracts with standardized, non-descriptive names to control for lexical bias.
     * Both experiment folders are further subdivided into 10 directories, each corresponding to one of the high-level defect categories from the test suite.
