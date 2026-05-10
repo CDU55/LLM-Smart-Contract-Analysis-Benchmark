@@ -1,5 +1,7 @@
 # LLM-Based Static Analysis for Smart Contracts - Supplemental Materials
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20109866.svg)](https://doi.org/10.5281/zenodo.20109866)
+
 This repository contains supplemental materials for our LLM-based static-analysis experiments on smart contracts. It includes the full test suite used in the evaluation, the pre-computed vector embeddings for our vulnerability definitions, and the experimental outputs used for analysis and reproduction.
 The associated technical report is included in this repository under `TechnicalReport/` as a PDF.
 
