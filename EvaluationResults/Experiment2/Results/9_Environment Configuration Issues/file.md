@@ -1,0 +1,14 @@
+| Contract Name | GPT Oss 120b | GPT Oss 20b API | GPT Oss 20b Local | Grok 4.1 fast non-reasoning | Grok 4.1 fast reasoning | Devstral | Magistral Medium | Magistral 24b API | Devstral Small API | Magistral 24b Local | Devstral Small Local | Qwen3 235b thinking | Qwen3 30b thinking API | Qwen3 235b instruct | Qwen3 30b instruct API | DeepSeek R1 14b Local | DeepSeek Chat | DeepSeek Reasoner |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| HardcodedGasLimit | TP | TP | TP | FN | FN | TP | FN | FN | TP | TP | TP | FN | FN | FN | FN | FN | FN | FN |
+| HardcodedGasLimitFixed | TN | TN | FP | TN | FP | FP | TN | TN | TN | FP | TN | TN | TN | FP | FP | TN | FP | TN |
+| NoPragma | FN | FN | TP | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN |
+| NoPragmaFixed | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN |
+| FloatingPragma | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN |
+| FloatingPragmaFixed | TN | TN | TN | TN | TN | TN | TN | FP | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN |
+| ShortAddressFixed | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN |
+| ShortAddress | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN |
+| ERC20ReturnTypeViolation | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | TP | FN | FN |
+| ERC20ReturnTypeViolationFixed | FP | FP | TN | TN | TN | FP | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN |
+| OutdatedCompilerVersionFixed | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN |
+| OutdatedCompilerVersion | TP | FN | FN | TP | TP | FN | FN | FN | FN | FN | FN | FN | FN | TP | FN | FN | TP | TP |

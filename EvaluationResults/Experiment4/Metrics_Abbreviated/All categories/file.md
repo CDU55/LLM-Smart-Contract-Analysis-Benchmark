@@ -1,0 +1,20 @@
+| Model | Recall | False Positive Rate | Balanced Accuracy | Precision |
+|---|---|---|---|---|
+| GPT Oss 120b | 0.34 | 0.11 | 0.61 | 0.75 |
+| GPT Oss 20b API | 0.22 | 0.07 | 0.57 | 0.74 |
+| GPT Oss 20b Local | 0.3 | 0.14 | 0.57 | 0.67 |
+| Grok 4.1 fast non-reasoning | 0.46 | 0.35 | 0.55 | 0.56 |
+| Grok 4.1 fast reasoning | 0.45 | 0.27 | 0.59 | 0.62 |
+| Devstral | 0.47 | 0.31 | 0.57 | 0.6 |
+| Magistral Medium | 0.36 | 0.3 | 0.52 | 0.54 |
+| Magistral 24b API | 0.3 | 0.23 | 0.53 | 0.56 |
+| Devstral Small API | 0.35 | 0.27 | 0.53 | 0.56 |
+| Magistral 24b Local | 0.32 | 0.22 | 0.55 | 0.59 |
+| Devstral Small Local | 0.4 | 0.28 | 0.56 | 0.59 |
+| Qwen3 235b thinking | 0.38 | 0.22 | 0.57 | 0.62 |
+| Qwen3 30b thinking API | 0.34 | 0.11 | 0.61 | 0.75 |
+| Qwen3 235b instruct | 0.43 | 0.29 | 0.56 | 0.59 |
+| Qwen3 30b instruct API | 0.31 | 0.25 | 0.53 | 0.56 |
+| DeepSeek Chat | 0.51 | 0.4 | 0.55 | 0.55 |
+| DeepSeek Reasoner | 0.46 | 0.22 | 0.61 | 0.67 |
+| DeepSeek R1 14b Local | 0.3 | 0.12 | 0.59 | 0.71 |

@@ -1,0 +1,19 @@
+Model,TP,FP,TN,FN
+"GPT Oss 120b",2,2,5,5
+"GPT Oss 20b API",1,2,5,6
+"GPT Oss 20b Local",4,1,6,3
+"Grok 4.1 fast non-reasoning",4,1,6,3
+"Grok 4.1 fast reasoning",7,2,5,0
+"Devstral",2,3,4,5
+"Magistral Medium",3,3,4,4
+"Magistral 24b API",1,0,7,6
+"Devstral Small API",4,3,4,3
+"Magistral 24b Local",3,2,5,4
+"Devstral Small Local",4,1,6,3
+"Qwen3 235b thinking",4,1,6,3
+"Qwen3 30b thinking API",3,2,5,4
+"Qwen3 235b instruct",5,4,3,2
+"Qwen3 30b instruct API",1,2,5,6
+"DeepSeek Chat",4,2,5,3
+"DeepSeek Reasoner",4,1,6,3
+"DeepSeek R1 14b Local",3,2,5,4

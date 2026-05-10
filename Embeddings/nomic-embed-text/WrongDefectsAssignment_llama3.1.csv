@@ -1,0 +1,51 @@
+Defect Name,Expected Count,Actual Count
+Erroneous Constructor Name,2,2
+Reentrancy,96,94
+Call To The Unknown,29,7
+Exact Balance Dependency,13,2
+Improper Data Validation,9,5
+Vulnerable DELEGATECALL,10,8
+Timestamp Dependency,11,11
+Transaction-Ordering Dependency (TOD),7,5
+Bad Random Number Generation,17,11
+Improper Private Variable Secret,17,13
+Unpredictable State (Dynamic Libraries),11,6
+Block Hash Dependency,11,9
+Unchecked Low Level Call or Send Return Values,50,36
+Unexpected Throw Or Revert,36,7
+Mishandled Out-Of-Gas Exception,4,1
+Assert, Require Or Revert Violation,68,20
+Frozen Ether,6,4
+DoS With Block Gas Limit Reached,18,8
+DoS By Exception Inside Loop,9,2
+Insufficient Gas Griefing,8,6
+Gas Costly Loops,9,7
+Gas Costly Pattern,11,4
+High Gas Consumption Of Variable Datatype Or Declaration,12,10
+Under-Priced Opcodes,7,4
+Authorization Via Transaction Origin,5,4
+Unauthorized Accessibility Due To Wrong Function Or State Variable Visibility,18,15
+Unprotected Self-Destruction,14,7
+Unauthorized Ether Withdrawal,9,0
+Signature-Based Vulnerabilities,21,20
+Integer Over Or Underflow,6,5
+Divide By Zero,60,58
+Bugs And Arithmetic Issues,5,4
+Type Cast,7,0
+Coding Error,6,4
+Function Ordering,14,10
+Deprecated Source Language Features,5,3
+Use Of Assembly,4,4
+Incorrect Inheritance Order,12,10
+Variable Shadowing,23,22
+Dead Code,17,12
+Inadequate Or Incorrect Logging Or Documentation,16,7
+Outdated Compiler Version,6,6
+Floating Or No Pragma,15,11
+Hardcoded Gas,7,7
+Violation Of Checks-Effects-Interaction Pattern,9,2
+Short Address,4,1
+Token API Violation,11,1
+Call Stack Depth Limit,4,0
+Ether Lost In Transfer,1,0
+Single Quotes String,2,2

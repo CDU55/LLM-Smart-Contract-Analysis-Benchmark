@@ -1,0 +1,36 @@
+| Contract Name | GPT Oss 120b | GPT Oss 20b API | GPT Oss 20b Local | Grok 4.1 fast non-reasoning | Grok 4.1 fast reasoning | Devstral | Magistral Medium | Magistral 24b API | Devstral Small API | Magistral 24b Local | Devstral Small Local | Qwen3 235b thinking | Qwen3 30b thinking API | Qwen3 235b instruct | Qwen3 30b instruct API | DeepSeek Chat | DeepSeek Reasoner | DeepSeek R1 14b Local |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ReentrancyConditionalFixed | TN | FP | TN | FP | FP | FP | FP | TN | TN | TN | FP | TN | TN | FP | TN | FP | TN | FP |
+| ReentrancyConditional | FN | TP | FN | TP | TP | TP | TP | TP | TP | TP | TP | FN | TP | TP | TP | TP | TP | TP |
+| ReentrancyEffectUnderFunctionFixed | TN | TN | TN | FP | TN | FP | FP | TN | FP | TN | TN | TN | TN | FP | FP | FP | TN | TN |
+| ReentrancyEffectUnderFunction | FN | TP | TP | TP | TP | TP | TP | TP | TP | FN | FN | TP | TP | TP | TP | TP | FN | TP |
+| ReentrancySimpleFixed | TN | TN | TN | FP | FP | FP | TN | TN | FP | TN | TN | TN | TN | FP | TN | FP | TN | FP |
+| ReentrancySimpleGasLimitCallFixed | TN | TN | TN | FP | FP | FP | FP | FP | FP | TN | FP | FP | FP | FP | FP | FP | FP | FP |
+| ReentrancySimpleGasLimitCallSendFixed | TN | TN | TN | FP | TN | FP | FP | TN | FP | FP | FP | TN | FP | FP | FP | FP | FP | TN |
+| ReentrancySimpleGasLimitCallSend | FN | TP | TP | TP | TP | TP | TP | TP | TP | FN | FN | TP | FN | TP | TP | TP | TP | TP |
+| ReentrancySimpleGasLimitCallTransferFixed | TN | TN | TN | TN | TN | FP | FP | FP | FP | FP | FP | TN | TN | FP | FP | FP | FP | TN |
+| ReentrancySimpleGasLimitCallTransfer | FN | TP | TP | TP | TP | TP | TP | TP | TP | FN | FN | TP | FN | TP | TP | TP | TP | FN |
+| ReentrancySimpleGasLimitCall | FN | FN | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP |
+| ReentrancySimpleLockFixed | TN | FP | TN | FP | FP | FP | FP | FP | FP | FP | TN | TN | TN | FP | FP | FP | TN | FP |
+| ReentrancySimpleLockModifierFixed | TN | TN | TN | FP | TN | FP | FP | FP | FP | TN | TN | FP | TN | FP | TN | FP | TN | FP |
+| ReentrancySimpleLockModifier | FN | TP | FN | TP | TP | TP | TP | FN | TP | FN | FN | TP | TP | TP | FN | TP | TP | TP |
+| ReentrancySimpleLock | TP | TP | TP | TP | TP | TP | FN | FN | FN | FN | FN | TP | TP | TP | TP | TP | TP | TP |
+| ReentrancySimple | FN | TP | TP | TP | TP | TP | TP | FN | TP | FN | FN | TP | TP | TP | TP | TP | TP | TP |
+| DepositContractFixed | FP | FP | TN | FP | TN | FP | FP | FP | FP | FP | FP | FP | FP | FP | FP | FP | FP | FP |
+| DepositContract | TP | FN | FN | TP | TP | TP | TP | TP | TP | TP | TP | TP | FN | TP | TP | TP | TP | FN |
+| CallToUnknownFixed | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | FP | FP | TN | TN | TN |
+| CallToUnknownSimpleFixed | TN | TN | TN | FP | TN | FP | TN | TN | TN | TN | TN | TN | TN | FP | TN | TN | TN | TN |
+| CallToUnknownSimple | TP | FN | FN | TP | FN | FN | FN | FN | FN | FN | FN | TP | FN | TP | FN | TP | FN | FN |
+| CallToUnknown | FN | FN | FN | FN | FN | TP | FN | FN | FN | FN | FN | FN | FN | TP | TP | FN | FN | FN |
+| StrictBalanceEqualityFixed | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN |
+| StrictBalanceEqualityRequireFixed | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN |
+| StrictBalanceEqualityRequire | FN | FN | FN | TP | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN |
+| StrictBalanceEqualityTokenFixed | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN |
+| StrictBalanceEqualityToken | FN | FN | FN | TP | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN |
+| StrictBalanceEquality | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | TP | TP | FN | FN | TP | TP | TP |
+| ImproperDataValidationFixed | TN | TN | TN | TN | TN | FP | FP | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN |
+| ImproperDataValidation | FN | FN | FN | TP | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN |
+| MissingZeroAddressValidationFixed | TN | TN | TN | TN | TN | FP | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN |
+| MissingZeroAddressValidation | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN |
+| VulnerableDelegateCALLFixed | TN | TN | FP | FP | FP | FP | FP | FP | FP | TN | FP | FP | FP | FP | FP | FP | FP | FP |
+| VulnerableDelegateCALL | FN | FN | FN | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP | FN |

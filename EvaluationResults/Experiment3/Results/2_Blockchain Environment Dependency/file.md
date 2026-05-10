@@ -1,0 +1,20 @@
+| Contract Name | GPT Oss 120b | GPT Oss 20b API | GPT Oss 20b Local | Grok 4.1 fast non-reasoning | Grok 4.1 fast reasoning | Devstral | Magistral Medium | Magistral 24b API | Devstral Small API | Magistral 24b Local | Devstral Small Local | Qwen3 235b thinking | Qwen3 30b thinking API | Qwen3 235b instruct | Qwen3 30b instruct API | DeepSeek Chat | DeepSeek Reasoner | DeepSeek R1 14b Local |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| TimestampDependencyFixed | TN | FP | FP | FP | TN | FP | FP | FP | FP | FP | FP | FP | TN | FP | FP | TN | FP | FP |
+| TimestampDependency | FN | FN | FN | FN | FN | FN | TP | TP | TP | TP | TP | FN | FN | TP | FN | TP | FN | FN |
+| TransactionOrderDependencyFixed | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | FP | TN |
+| TransactionOrderDependencyHashFixed | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | FP | TN |
+| TransactionOrderDependencyHash | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN |
+| TransactionOrderDependency | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | TP | FN |
+| BadRandomNumberGenFixed | TN | FP | TN | TN | FP | TN | FP | TN | TN | FP | FP | TN | TN | FP | FP | FP | FP | TN |
+| BadRandomNumberGen | FN | FN | TP | TP | TP | FN | FN | FN | FN | FN | FN | TP | FN | TP | FN | TP | TP | TP |
+| BlockVariableDependencyFixed | TN | FP | TN | TN | FP | FP | TN | TN | FP | TN | FP | FP | TN | FP | FP | FP | TN | FP |
+| BlockVariableDependency | FN | FN | TP | TP | TP | TP | TP | FN | FN | FN | FN | TP | TP | TP | TP | TP | TP | TP |
+| ImproperPrivateVariableSecretFixed | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN |
+| ImproperPrivateVariableSecretMinimalFixed | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN |
+| ImproperPrivateVariableSecretMinimal | FN | FN | FN | FN | TP | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN |
+| ImproperPrivateVariableSecret | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN |
+| UnpredictableStateDynamicLibrariesFixed | TN | FP | TN | FP | FP | TN | TN | TN | TN | TN | FP | TN | TN | FP | TN | TN | TN | TN |
+| UnpredictableStateDynamicLibraries | FN | FN | FN | FN | FN | FN | FN | TP | FN | FN | FN | FN | FN | TP | FN | FN | FN | FN |
+| BlockhashDependencyFixed | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN |
+| BlockhashDependency | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | TP | FN | FN | FN | FN |

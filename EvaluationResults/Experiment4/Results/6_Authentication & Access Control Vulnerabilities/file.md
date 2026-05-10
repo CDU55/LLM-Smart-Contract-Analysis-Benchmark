@@ -1,0 +1,18 @@
+| Contract Name | GPT Oss 120b | GPT Oss 20b API | GPT Oss 20b Local | Grok 4.1 fast non-reasoning | Grok 4.1 fast reasoning | Devstral | Magistral Medium | Magistral 24b API | Devstral Small API | Magistral 24b Local | Devstral Small Local | Qwen3 235b thinking | Qwen3 30b thinking API | Qwen3 235b instruct | Qwen3 30b instruct API | DeepSeek Chat | DeepSeek Reasoner | DeepSeek R1 14b Local |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| TransactionOriginAuthFixed | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN |
+| TransactionOriginAuth | FN | FN | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP | FN | FN |
+| DefaultAccessModifierSimpleFixed | TN | TN | TN | FP | TN | FP | TN | TN | TN | TN | TN | TN | TN | TN | TN | TN | FP | TN |
+| DefaultAccessModifierSimple | FN | FN | FN | FN | FN | TP | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN | FN |
+| DefaultAccessModifierVariableFixed | TN | TN | TN | FP | FP | TN | TN | FP | TN | FP | FP | TN | TN | FP | TN | FP | FP | TN |
+| DefaultAccessModifierVariable | FN | FN | FN | TP | TP | FN | FN | FN | TP | TP | FN | FN | TP | TP | TP | TP | TP | FN |
+| UnInitializedConditionStateVariableFixed | TN | TN | FP | FP | FP | FP | FP | FP | FP | FP | FP | TN | TN | TN | FP | FP | TN | TN |
+| UnInitializedConditionStateVariable | FN | FN | FN | TP | TP | FN | FN | TP | TP | FN | TP | FN | FN | TP | TP | TP | FN | TP |
+| UnprotectedSelfdestructFixed | FP | TN | TN | FP | FP | FP | FP | FP | FP | FP | FP | TN | TN | FP | FP | TN | TN | FP |
+| UnprotectedSelfdestruct | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP | TP |
+| UnprotectedTransferFixed | TN | TN | TN | TN | FP | TN | TN | TN | TN | TN | FP | FP | FP | TN | TN | TN | TN | TN |
+| UnprotectedTransfer | FN | FN | FN | TP | FN | FN | FN | FN | FN | FN | FN | TP | TP | TP | FN | TP | TP | FN |
+| SignatureBasedVulnerabilityFixed | TN | TN | TN | FP | FP | TN | TN | TN | TN | TN | TN | FP | TN | TN | TN | FP | FP | TN |
+| SignatureBasedVulnerability | FN | FN | FN | TP | FN | TP | FN | FN | FN | FN | FN | TP | TP | FN | FN | TP | TP | FN |
+| SignatureMaleabilityFixed | FP | TN | TN | TN | TN | FP | FP | TN | TN | TN | TN | FP | TN | TN | TN | FP | TN | TN |
+| SignatureMaleability | FN | FN | FN | TP | TP | TP | FN | FN | FN | FN | FN | FN | FN | FN | FN | TP | TP | FN |

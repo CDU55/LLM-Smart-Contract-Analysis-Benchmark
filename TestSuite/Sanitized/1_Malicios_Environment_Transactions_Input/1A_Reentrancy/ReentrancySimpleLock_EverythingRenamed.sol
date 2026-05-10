@@ -1,0 +1,20 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.29;
+
+contract C11A131 {
+    mapping(address => uint) private balance;
+    bool internal locked;
+
+    function deposit() external payable {
+        balance[msg.sender] = msg.value;
+    }
+
+    function withdraw() external {
+        require(!locked);
+        uint addrBal = balance[msg.sender];
+        (bool success,) = payable(msg.sender).call{value: addrBal}("");
+        balance[msg.sender] = 0;
+        require(success);
+        locked = false;
+    }
+}

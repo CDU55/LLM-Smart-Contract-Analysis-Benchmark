@@ -1,0 +1,20 @@
+| Model | Time Outs | Invalid Results | Total Detections | Average runtime (ms) | Errors |
+|---|---|---|---|---|---|
+| GPT Oss 120b | 0 | 7 | 74 | 26217.79 | 0 |
+| GPT Oss 20b API | 0 | 2 | 72 | 23517.67 | 0 |
+| GPT Oss 20b Local | 2 | 7 | 129 | 126932.15 | 1 |
+| Grok 4.1 fast non-reasoning | 0 | 0 | 241 | 5665.32 | 0 |
+| Grok 4.1 fast reasoning | 0 | 1 | 173 | 28294.41 | 0 |
+| Devstral | 0 | 0 | 208 | 17773.41 | 0 |
+| Magistral Medium | 0 | 0 | 144 | 15795.61 | 0 |
+| Magistral 24b API | 0 | 4 | 136 | 6951.97 | 0 |
+| Devstral Small API | 0 | 7 | 136 | 3277 | 0 |
+| Magistral 24b Local | 0 | 8 | 106 | 61701.11 | 0 |
+| Devstral Small Local | 0 | 2 | 165 | 88276.12 | 2 |
+| Qwen3 235b thinking | 0 | 0 | 113 | 101339.41 | 0 |
+| Qwen3 30b thinking API | 0 | 2 | 89 | 25303.17 | 0 |
+| Qwen3 235b instruct | 0 | 0 | 152 | 9824.94 | 0 |
+| Qwen3 30b instruct API | 0 | 9 | 135 | 12016.58 | 0 |
+| DeepSeek Chat | 0 | 0 | 201 | 34660.29 | 0 |
+| DeepSeek Reasoner | 0 | 0 | 152 | 94461.47 | 0 |
+| DeepSeek R1 14b Local | 0 | 1 | 76 | 70846 | 0 |

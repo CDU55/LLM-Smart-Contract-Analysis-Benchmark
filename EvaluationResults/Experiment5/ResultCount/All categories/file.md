@@ -1,0 +1,20 @@
+| Model | TP | FP | TN | FN |
+|---|---|---|---|---|
+| GPT Oss 120b | 19 | 9 | 79 | 69 |
+| GPT Oss 20b API | 18 | 7 | 81 | 70 |
+| GPT Oss 20b Local | 19 | 7 | 81 | 69 |
+| Grok 4.1 fast non-reasoning | 31 | 19 | 69 | 57 |
+| Grok 4.1 fast reasoning | 29 | 12 | 76 | 59 |
+| Devstral | 37 | 21 | 67 | 51 |
+| Magistral Medium | 25 | 14 | 74 | 63 |
+| Magistral 24b API | 24 | 11 | 77 | 64 |
+| Devstral Small API | 28 | 18 | 70 | 60 |
+| Magistral 24b Local | 23 | 9 | 79 | 65 |
+| Devstral Small Local | 27 | 18 | 70 | 61 |
+| Qwen3 235b thinking | 29 | 7 | 81 | 59 |
+| Qwen3 30b thinking API | 17 | 0 | 88 | 71 |
+| Qwen3 235b instruct | 29 | 19 | 69 | 59 |
+| Qwen3 30b instruct API | 21 | 8 | 80 | 67 |
+| DeepSeek Chat | 32 | 24 | 64 | 56 |
+| DeepSeek Reasoner | 31 | 14 | 74 | 57 |
+| DeepSeek R1 14b Local | 26 | 10 | 78 | 62 |
